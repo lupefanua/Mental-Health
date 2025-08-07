@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tina's Mental Health</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="world">
+    <div class="grid-overlay"></div>
+
+    <!-- Slide 0 -->
+    <div class="slide" id="slide0">
+      <img id="Slide-0-01" src="images/Slide 0/Slide 0-01.png" alt="Slide 0-01" class="character" />
+
+    </div>
+
+    <!-- Slide 1 -->
+    <div class="slide" id="slide1">
+      <img id="Slide-1-01" src="images/Slide 1/Slide 1-01.png" alt="Slide 1-01" class="character" />
+      <img id="Slide-1-02" src="images/Slide 1/Slide 1-02.png" alt="Slide 1-02" class="character" />
+      <img id="Slide-1-03" src="images/Slide 1/Slide 1-03.png" alt="Slide 1-03" class="character" />
+      <img id="Slide-1-04" src="images/Slide 1/Slide 1-04.png" alt="Slide 1-04" class="character" />
+      <img id="Slide-1-05" src="images/Slide 1/Slide 1-05.png" alt="Slide 1-05" class="character" />
+      <img id="Slide-1-06" src="images/Slide 1/Slide 1-06.png" alt="Slide 1-06" class="character" />
+      <img id="Slide-1-07" src="images/Slide 1/Slide 1-07.png" alt="Slide 1-07" class="character" />
+      <img id="Slide-1-08" src="images/Slide 1/Slide 1-08.png" alt="Slide 1-08" class="character" />
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide" id="slide2" style="display:none;">
+      <img id="Slide-2-01" src="images/Slide 2/Slide 2-01.png" alt="Slide 2-01" class="character" />
+      <img id="Slide-2-02" src="images/Slide 2/Slide 2-02.png" alt="Slide 2-02" class="character" />
+      <img id="Slide-2-03" src="images/Slide 2/Slide 2-03.png" alt="Slide 2-03" class="character" />
+      <img id="Slide-2-04" src="images/Slide 2/Slide 2-04.png" alt="Slide 2-04" class="character" />
+      <img id="Slide-2-05" src="images/Slide 2/Slide 2-05.png" alt="Slide 2-05" class="character" />
+      <img id="Slide-2-06" src="images/Slide 2/Slide 2-06.png" alt="Slide 2-06" class="character" />
+      <img id="Slide-2-07" src="images/Slide 2/Slide 2-07.png" alt="Slide 2-07" class="character" />
+      <img id="Slide-2-08" src="images/Slide 2/Slide 2-08.png" alt="Slide 2-08" class="character" />
+      <img id="Slide-2-09" src="images/Slide 2/Slide 2-09.png" alt="Slide 2-09" class="character" />
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide" id="slide3" style="display:none;">
+      <img id="Slide-3-01" src="images/Slide 3/Slide 3-01.png" alt="Slide 3-01" class="character" />
+      <img id="Slide-3-02" src="images/Slide 3/Slide 3-02.png" alt="Slide 3-02" class="character" />
+      <img id="Slide-3-03" src="images/Slide 3/Slide 3-03.png" alt="Slide 3-03" class="character" />
+      <img id="Slide-3-04" src="images/Slide 3/Slide 3-04.png" alt="Slide 3-04" class="character" />
+      <img id="Slide-3-05" src="images/Slide 3/Slide 3-05.png" alt="Slide 3-05" class="character" />
+      <img id="Slide-3-06" src="images/Slide 3/Slide 3-06.png" alt="Slide 3-06" class="character" />
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide" id="slide4" style="display:none;">
+    <img id="Slide-4-01" src="images/Slide 4/Slide 4-01.png" alt="Slide 4-01" class="character" />
+    <img id="Slide-4-02" src="images/Slide 4/Slide 4-02.png" alt="Slide 4-01" class="character" />
+    <img id="Slide-4-03" src="images/Slide 4/Slide 4-03.png" alt="Slide 4-01" class="character" />
+    <img id="Slide-4-04" src="images/Slide 4/Slide 4-04.png" alt="Slide 4-01" class="character" />
+    <img id="Slide-4-05" src="images/Slide 4/Slide 4-05.png" alt="Slide 4-01" class="character" />
+    <img id="Slide-4-06" src="images/Slide 4/Slide 4-06.png" alt="Slide 4-01" class="character" />
+    <img id="Slide-4-07" src="images/Slide 4/Slide 4-07.png" alt="Slide 4-01" class="character" />
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="slide" id="slide5" style="display:none;">
+      <img id="Slide-5-01" src="images/Slide 5/Slide 5-01.png" alt="Slide 5-01" class="character" />
+      <img id="Slide-5-02" src="images/Slide 5/Slide 5-02.png" alt="Slide 5-02" class="character" />
+      <img id="Slide-5-03" src="images/Slide 5/Slide 5-03.png" alt="Slide 5-03" class="character" />
+      <img id="Slide-5-04" src="images/Slide 5/Slide 5-04.png" alt="Slide 5-04" class="character" />
+      <img id="Slide-5-05" src="images/Slide 5/Slide 5-05.png" alt="Slide 5-05" class="character" />
+      <img id="Slide-5-06" src="images/Slide 5/Slide 5-06.png" alt="Slide 5-06" class="character" />
+      <img id="Slide-5-07" src="images/Slide 5/Slide 5-07.png" alt="Slide 5-07" class="character" />
+      <img id="Slide-5-08" src="images/Slide 5/Slide 5-08.png" alt="Slide 5-05" class="character" />
+      <img id="Slide-5-09" src="images/Slide 5/Slide 5-09.png" alt="Slide 5-06" class="character" />
+      <img id="Slide-5-10" src="images/Slide 5/Slide 5-10.png" alt="Slide 5-07" class="character" />
+      <img id="Slide-5-11" src="images/Slide 5/Slide 5-11.png" alt="Slide 5-07" class="character" />
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="slide" id="slide6" style="display:none;">
+      <img id="Slide-6-01" src="images/Slide 6/Slide 6-01.png" alt="Slide 6-01" class="character" />
+      <img id="Slide-6-02" src="images/Slide 6/Slide 6-02.png" alt="Slide 6-02" class="character" />
+      <img id="Slide-6-03" src="images/Slide 6/Slide 6-03.png" alt="Slide 6-03" class="character" />
+      <img id="Slide-6-04" src="images/Slide 6/Slide 6-04.png" alt="Slide 6-04" class="character" />
+      <img id="Slide-6-05" src="images/Slide 6/Slide 6-05.png" alt="Slide 6-05" class="character" />
+      <img id="Slide-6-06" src="images/Slide 6/Slide 6-06.png" alt="Slide 6-06" class="character" />
+    </div>
+
+    <!-- Slide 7 -->
+    <div class="slide" id="slide7" style="display:none;">
+      <img id="Slide-7-01" src="images/Slide 7/Slide 7-01.png" alt="Slide 7-01" class="character" />
+      <img id="Slide-7-02" src="images/Slide 7/Slide 7-02.png" alt="Slide 7-02" class="character" />
+      <img id="Slide-7-03" src="images/Slide 7/Slide 7-03.png" alt="Slide 7-03" class="character" />
+      <img id="Slide-7-04" src="images/Slide 7/Slide 7-04.png" alt="Slide 7-04" class="character" />
+      <img id="Slide-7-05" src="images/Slide 7/Slide 7-05.png" alt="Slide 7-05" class="character" />
+      <img id="Slide-7-06" src="images/Slide 7/Slide 7-06.png" alt="Slide 7-06" class="character" />
+      <img id="Slide-7-07" src="images/Slide 7/Slide 7-07.png" alt="Slide 7-07" class="character" />
+      <img id="Slide-7-08" src="images/Slide 7/Slide 7-08.png" alt="Slide 7-08" class="character" />
+    </div>
+
+    <!-- Slide 8 -->
+    <div class="slide" id="slide8" style="display:none;">
+      <img id="Slide-8-01" src="images/Slide 8/Slide 8-01.png" alt="Slide 8-01" class="character" />
+      <img id="Slide-8-02" src="images/Slide 8/Slide 8-02.png" alt="Slide 8-02" />
+      <img id="Slide-8-03" src="images/Slide 8/Slide 8-03.png" alt="Slide 8-03" class="character" />
+      <img id="Slide-8-04" src="images/Slide 8/Slide 8-04.png" alt="Slide 8-04" class="character" />
+      <img id="Slide-8-05" src="images/Slide 8/Slide 8-05.png" alt="Slide 8-05" class="character" />
+      <img id="Slide-8-06" src="images/Slide 8/Slide 8-06.png" alt="Slide 8-06" />
+      <img id="Slide-8-07" src="images/Slide 8/Slide 8-07.png" alt="Slide 8-07" />
+      <img id="Slide-8-08" src="images/Slide 8/Slide 8-08.png" alt="Slide 8-08" class="character" />
+      <img id="Slide-8-09" src="images/Slide 8/Slide 8-09.png" alt="Slide 8-09" class="character" />
+      <img id="Slide-8-10" src="images/Slide 8/Slide 8-10.png" alt="Slide 8-10" class="character" />
+    </div>
+
+    <!-- Slide 9 -->
+    <div class="slide" id="slide9" style="display:none;">
+      <img id="Slide-9-01" src="images/Slide 9/Slide 9-01.png" alt="Slide 9-01" class="character" />
+      <img id="Slide-9-02" src="images/Slide 9/Slide 9-02.png" alt="Slide 9-02" class="character" />
+      <img id="Slide-9-03" src="images/Slide 9/Slide 9-03.png" alt="Slide 9-03" class="character" />
+      <img id="Slide-9-04" src="images/Slide 9/Slide 9-04.png" alt="Slide 9-04" class="character" />
+      <img id="Slide-9-05" src="images/Slide 9/Slide 9-05.png" alt="Slide 9-05" class="character" />
+      <img id="Slide-9-06" src="images/Slide 9/Slide 9-06.png" alt="Slide 9-06" class="character" />
+      <img id="Slide-9-07" src="images/Slide 9/Slide 9-07.png" alt="Slide 9-07" class="character" />
+    </div>
+
+    <!-- Slide 10 -->
+    <div class="slide" id="slide10" style="display:none;">
+      <img id="Slide-10-01" src="images/Slide 10/Slide 10-01.png" alt="Slide 10-01" class="character" />
+      <img id="Slide-10-02" src="images/Slide 10/Slide 10-02.png" alt="Slide 10-02" class="character" />
+      <img id="Slide-10-03" src="images/Slide 10/Slide 10-03.png" alt="Slide 10-03" class="character" />
+      <img id="Slide-10-04" src="images/Slide 10/Slide 10-04.png" alt="Slide 10-04" class="character" />
+      <img id="Slide-10-05" src="images/Slide 10/Slide 10-05.png" alt="Slide 10-05" class="character" />
+      <img id="Slide-10-06" src="images/Slide 10/Slide 10-06.png" alt="Slide 10-06" class="character" />
+    </div>
+
+    <!-- Slide 11 -->
+    <div class="slide" id="slide11" style="display:none;">
+      <img id="Slide-11-01" src="images/Slide 11/Slide 11-01.png" alt="Slide 11-01" class="character" />
+      <img id="Slide-11-02" src="images/Slide 11/Slide 11-02.png" alt="Slide 11-02" class="character" />
+      <img id="Slide-11-03" src="images/Slide 11/Slide 11-03.png" alt="Slide 11-03" class="character" />
+      <img id="Slide-11-04" src="images/Slide 11/Slide 11-04.png" alt="Slide 11-04" class="character" />
+      <img id="Slide-11-05" src="images/Slide 11/Slide 11-05.png" alt="Slide 11-05" class="character" />
+      <img id="Slide-11-06" src="images/Slide 11/Slide 11-06.png" alt="Slide 11-06" class="character" />
+      <img id="Slide-11-07" src="images/Slide 11/Slide 11-07.png" alt="Slide 11-07" class="character" />
+    </div>
+
+    <!-- Slide 12 -->
+    <div class="slide" id="slide12" style="display:none;">
+      <img id="Slide-12-01" src="images/Slide 12/Slide 12-01.png" alt="Slide 12-01" class="character" />
+      <img id="Slide-12-02" src="images/Slide 12/Slide 12-02.png" alt="Slide 12-02" class="character" />
+      <img id="Slide-12-03" src="images/Slide 12/Slide 12-03.png" alt="Slide 12-03" class="character" />
+      <img id="Slide-12-04" src="images/Slide 12/Slide 12-04.png" alt="Slide 12-04" class="character" />
+      <img id="Slide-12-05" src="images/Slide 12/Slide 12-05.png" alt="Slide 12-05" class="character" />
+      <img id="Slide-12-06" src="images/Slide 12/Slide 12-06.png" alt="Slide 12-06" class="character" />
+      <img id="Slide-12-07" src="images/Slide 12/Slide 12-07.png" alt="Slide 12-07" class="character" />
+      <img id="Slide-12-08" src="images/Slide 12/Slide 12-08.png" alt="Slide 12-08" class="character" />
+    </div>
+
+    <!-- Slide 13 -->
+    <div class="slide" id="slide13" style="display:none;">
+      <img id="Slide-13-01" src="images/Slide 13/Slide 13-01.png" alt="Slide 13-01" class="character" />
+      <img id="Slide-13-02" src="images/Slide 13/Slide 13-02.png" alt="Slide 13-02" class="character" />
+      <img id="Slide-13-03" src="images/Slide 13/Slide 13-03.png" alt="Slide 13-03" class="character" />
+      <img id="Slide-13-04" src="images/Slide 13/Slide 13-04.png" alt="Slide 13-04" class="character" />
+      <img id="Slide-13-05" src="images/Slide 13/Slide 13-05.png" alt="Slide 13-05" class="character" />
+      <img id="Slide-13-06" src="images/Slide 13/Slide 13-06.png" alt="Slide 13-06" class="character" />
+    </div>
+
+    
+    <audio id="bg-music" src="Audio/background-educational-environment-music-369011.mp3" loop autoplay muted></audio>
+
+    <!-- Navigation -->
+    <div id="navigation">
+      <button id="prev">◀</button>
+      <span id="counter">1/9</span>
+      <div id="dots"></div>
+      <button id="next">▶</button>
+    </div>
+  </div>
+
+  <!-- Mute Button -->
+  <button id="mute-btn">🔊 Mute</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
